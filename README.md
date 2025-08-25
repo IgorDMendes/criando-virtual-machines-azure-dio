@@ -1,51 +1,53 @@
-# Projeto: Criação de Máquina Virtual no Azure
+# Desafio: Criando uma Máquina Virtual no Microsoft Azure
 
-Este repositório documenta o processo de criação de uma Máquina Virtual (VM) no **Microsoft Azure**, utilizando a assinatura **Azure for Students**.
+Este repositório contém o passo a passo do desafio de criar uma máquina virtual no **Microsoft Azure**, documentado com imagens para ilustrar cada etapa do processo.
 
 ---
 
-## 📌 Passo a passo
+## 📌 Objetivo
+O objetivo deste desafio é entender como funciona a criação e configuração de uma Máquina Virtual (VM) no **Azure Portal**, aplicando conceitos básicos de computação em nuvem.
 
-### 1. Acessar o Portal do Azure
-No painel inicial do Azure, clique em **Página inicial** para visualizar os serviços disponíveis.  
+---
+
+## 🚀 Passo a Passo
+
+### 1. Acessando o Portal do Azure
+Acesse o [Portal do Azure](https://portal.azure.com) com sua conta cadastrada.  
 ![Passo 1](/images/Criação_VM_P1.PNG)
 
 ---
 
-### 2. Selecionar o serviço de Máquinas Virtuais
-Na tela de serviços, clique em **Máquinas Virtuais**.  
+### 2. Criando um novo recurso
+No menu inicial, clique em **"Máquinas Virtuais"** e depois em **"Criar"** para iniciar o processo de configuração.  
 ![Passo 2](/images/Criação_VM_P2.PNG)
 
 ---
 
-### 3. Criar uma nova VM
-Clique em **Criar** para iniciar o processo de configuração da máquina virtual.  
+### 3. Configurando os detalhes básicos
+Preencha as informações principais:
+- Grupo de Recursos  
+- Nome da Máquina Virtual  
+- Região  
+- Sistema Operacional (Windows ou Linux)  
+- Tamanho da VM  
+- Usuário e senha de administrador  
+
 ![Passo 3](/images/Criação_VM_P3.PNG)
 
 ---
 
-### 4. Escolher o tipo de recurso
-Selecione a opção **Máquina virtual**.  
+### 4. Configurações de rede
+Configure as opções de rede (VNet, Sub-rede e Segurança) para garantir conectividade com a VM.  
 ![Passo 4](/images/Criação_VM_P4.PNG)
 
 ---
 
-### 5. Configurar a VM
-Defina os seguintes parâmetros principais:
-- **Assinatura:** Azure for Students  
-- **Grupo de recursos:** Criado para organizar o projeto  
-- **Região:** (South America) Brazil South  
-- **Imagem:** Ubuntu Server 24.04 LTS - x64 Gen2  
-- **Tamanho da VM:** Standard_D2s_v3  
-
-Após configurar, clique em **Revisar + criar**.  
+### 5. Revisão e criação
+Revise todas as configurações e clique em **"Criar"**.  
+O Azure provisionará a VM em alguns minutos.  
 ![Passo 5](/images/Criação_VM_P5.PNG)
 
 ---
 
-## ✅ Conclusão
-Ao finalizar essas etapas, sua Máquina Virtual estará criada e pronta para ser utilizada no Microsoft Azure.
-
----
-
 ## 📂 Estrutura do Repositório
+
